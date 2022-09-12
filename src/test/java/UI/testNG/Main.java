@@ -23,8 +23,5 @@ public class Main extends Init {
         holder.goToMainPage();
         holder.openInNewTab(holder.getSecondUrl());
         holder.changeTab(0);
-//        ArrayList<String> list = new ArrayList<String>(driver.getWindowHandles());
-//        driver.switchTo().window(list.get(0));
-
     }
 }
